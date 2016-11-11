@@ -1,0 +1,16 @@
+
+
+<style type="text/css">
+   .bigGraph {width:500px;height:500px;float:left;background: url("/assets/space.png") repeat;}
+   .mediumGraph {width:400px;height:400px;float:left;}
+   .smallGraph {width:200px;height:200px;float:left;}
+</style>
+
+
+
+<div ng-controller='IndexCtrl'>
+<button class="btn-floating btn-large waves-effect waves-light blue" ng-click="addOneElement()"><i class="material-icons">+</i></button>      
+  <hr/>      
+  <div google-chart="ScatterChart" ng-model="data1" class="bigGraph" id="chart_div"></div>
+</div>
+

@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @applicant.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @applicant.last_name %>
+</p>
+
+<p>
+  <strong>Clid:</strong>
+  <%= @applicant.clid %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @applicant.email %>
+</p>
+
+<p>
+  <strong>Major:</strong>
+  <%= @applicant.major %>
+</p>
+
+<p>
+  <strong>Joining semester:</strong>
+  <%= @applicant.joining_semester %>
+</p>
+
+<p>
+  <strong>Degree:</strong>
+  <%= @applicant.degree %>
+</p>
+
+<p>
+  <strong>Date of birth:</strong>
+  <%= @applicant.date_of_birth %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @applicant.phone %>
+</p>
+
+<p>
+  <strong>Address1:</strong>
+  <%= @applicant.address1 %>
+</p>
+
+<p>
+  <strong>Address2:</strong>
+  <%= @applicant.address2 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @applicant.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @applicant.state %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @applicant.country %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @applicant.zipcode %>
+</p>
+
+<%= link_to 'Edit', edit_applicant_path(@applicant) %> |
+<%= link_to 'Back', applicants_path %>
